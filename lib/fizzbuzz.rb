@@ -4,8 +4,10 @@ class Integer
       'fizzbuzz'
     elsif self % 5 == 0
       'buzz'
-    else
+    elsif self % 3 == 0
       'fizz'
+    else
+      self
     end
   end
 end
